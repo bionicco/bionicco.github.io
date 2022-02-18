@@ -1449,7 +1449,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
                                               break;
                                           case Ta:
                                               a = function(e) {
-                                                  return e ? "🟦" : "🟨"
+                                                  return e ? "🟦" : "🟥"
                                               }(i);
                                               break;
                                           case Ca:
