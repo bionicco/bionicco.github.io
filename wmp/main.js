@@ -542,14 +542,14 @@ function JoinComponent_ng_template_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, " Unisciti ");
 } }
-function JoinComponent_div_9_Template(rf, ctx) { if (rf & 1) {
+function JoinComponent_div_11_Template(rf, ctx) { if (rf & 1) {
     const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "Inserisci il nome del tuo giocatore");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "span", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "Nome giocatore");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "input", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function JoinComponent_div_9_Template_input_ngModelChange_3_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r6); const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r5.playername = $event; })("change", function JoinComponent_div_9_Template_input_change_3_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r6); const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r7.changeName(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "input", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function JoinComponent_div_11_Template_input_ngModelChange_3_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r6); const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r5.playername = $event; })("change", function JoinComponent_div_11_Template_input_change_3_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r6); const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r7.changeName(); });
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -557,8 +557,8 @@ function JoinComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngModel", ctx_r1.playername);
 } }
-function JoinComponent_p_message_13_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "p-message", 13);
+function JoinComponent_p_message_15_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "p-message", 14);
 } if (rf & 2) {
     const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("text", ctx_r2.error);
@@ -602,7 +602,7 @@ class JoinComponent {
     }
 }
 JoinComponent.ɵfac = function JoinComponent_Factory(t) { return new (t || JoinComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_services_matches_service__WEBPACK_IMPORTED_MODULE_2__["MatchesService"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_services_player_service__WEBPACK_IMPORTED_MODULE_3__["PlayerService"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_4__["Location"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"])); };
-JoinComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: JoinComponent, selectors: [["app-join"]], decls: 14, vars: 5, consts: [[1, "container"], [1, "p-p-5"], ["pTemplate", "header"], [1, "join"], [1, "label", "p-component"], ["pInputText", "", "type", "text", 3, "ngModel", "ngModelChange"], [1, "section"], ["onLabel", "Osservatore", "offLabel", "Giocatore", "onIcon", "pi pi-eye", "offIcon", "pi pi-user", 3, "ngModel", "ngModelChange"], [4, "ngIf"], ["pButton", "", 3, "disabled", "click"], ["severity", "error", 3, "text", 4, "ngIf"], [1, "pi", "pi-chevron-left", 3, "click"], ["pInputText", "", "type", "text", 3, "ngModel", "ngModelChange", "change"], ["severity", "error", 3, "text"]], template: function JoinComponent_Template(rf, ctx) { if (rf & 1) {
+JoinComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: JoinComponent, selectors: [["app-join"]], decls: 16, vars: 5, consts: [[1, "container"], [1, "p-p-5"], ["pTemplate", "header"], [1, "join"], [1, "label", "p-component"], ["pInputText", "", "type", "text", 3, "ngModel", "ngModelChange"], [1, "section"], ["onLabel", "Osservatore", "offLabel", "Giocatore", "onIcon", "pi pi-eye", "offIcon", "pi pi-user", 3, "ngModel", "ngModelChange"], [4, "ngIf"], ["pButton", "", 3, "disabled", "click"], ["severity", "error", 3, "text", 4, "ngIf"], [1, "pi", "pi-chevron-left", 3, "click"], [1, "p-component"], ["pInputText", "", "type", "text", 3, "ngModel", "ngModelChange", "change"], ["severity", "error", 3, "text"]], template: function JoinComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "p-card", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](2, JoinComponent_ng_template_2_Template, 2, 0, "ng-template", 2);
@@ -614,17 +614,20 @@ JoinComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function JoinComponent_Template_input_ngModelChange_6_listener($event) { return ctx.matchname = $event; });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "p-toggleButton", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function JoinComponent_Template_p_toggleButton_ngModelChange_8_listener($event) { return ctx.observer = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "span", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, "Entra come");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "p-toggleButton", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function JoinComponent_Template_p_toggleButton_ngModelChange_10_listener($event) { return ctx.observer = $event; });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, JoinComponent_div_9_Template, 4, 1, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "button", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function JoinComponent_Template_button_click_11_listener() { return ctx.joinMatch(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, "Entra");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, JoinComponent_div_11_Template, 4, 1, "div", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, JoinComponent_p_message_13_Template, 1, 1, "p-message", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](13, "button", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function JoinComponent_Template_button_click_13_listener() { return ctx.joinMatch(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](14, "Entra");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](15, JoinComponent_p_message_15_Template, 1, 1, "p-message", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -632,7 +635,7 @@ JoinComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComp
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngModel", ctx.matchname);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngModel", ctx.observer);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx.observer);
@@ -1318,9 +1321,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var primeng_lts_message__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! primeng-lts/message */ "P028");
 /* harmony import */ var primeng_lts_inputnumber__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! primeng-lts/inputnumber */ "LIbx");
 /* harmony import */ var primeng_lts_card__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! primeng-lts/card */ "pxLX");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/common */ "ofXK");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/core */ "fXoL");
-
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/core */ "fXoL");
 
 
 
@@ -1346,9 +1347,9 @@ __webpack_require__.r(__webpack_exports__);
 class AppModule {
 }
 AppModule.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(); };
-AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_22__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]] });
-AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_22__["ɵɵdefineInjector"]({ providers: [
-        { provide: _angular_common__WEBPACK_IMPORTED_MODULE_21__["APP_BASE_HREF"], useValue: '/wmp' }
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_21__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]] });
+AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_21__["ɵɵdefineInjector"]({ providers: [
+    // {provide: APP_BASE_HREF, useValue: '/wmp'}
     ], imports: [[
             _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormsModule"],
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -1364,7 +1365,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_22__["ɵɵdefineInjecto
             primeng_lts_inputnumber__WEBPACK_IMPORTED_MODULE_19__["InputNumberModule"],
             primeng_lts_card__WEBPACK_IMPORTED_MODULE_20__["CardModule"]
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_22__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_21__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
         _pages_home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"],
         _pages_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_7__["NavbarComponent"],
         _pages_create_create_component__WEBPACK_IMPORTED_MODULE_8__["CreateComponent"],
@@ -1457,14 +1458,14 @@ function CreateComponent_ng_template_2_Template(rf, ctx) { if (rf & 1) {
 function CreateComponent_p_message_6_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "p-message", 13);
 } }
-function CreateComponent_div_21_Template(rf, ctx) { if (rf & 1) {
+function CreateComponent_div_23_Template(rf, ctx) { if (rf & 1) {
     const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div", 3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](2, "Inserisci il nome del tuo giocatore");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "span", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](2, "Nome giocatore");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](3, "input", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("ngModelChange", function CreateComponent_div_21_Template_input_ngModelChange_3_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r6); const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](); return ctx_r5.playername = $event; })("change", function CreateComponent_div_21_Template_input_change_3_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r6); const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](); return ctx_r7.changeName(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("ngModelChange", function CreateComponent_div_23_Template_input_ngModelChange_3_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r6); const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](); return ctx_r5.playername = $event; })("change", function CreateComponent_div_23_Template_input_change_3_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r6); const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](); return ctx_r7.changeName(); });
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -1521,7 +1522,7 @@ class CreateComponent {
     }
 }
 CreateComponent.ɵfac = function CreateComponent_Factory(t) { return new (t || CreateComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](src_app_services_matches_service__WEBPACK_IMPORTED_MODULE_4__["MatchesService"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_6__["Location"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](src_app_services_player_service__WEBPACK_IMPORTED_MODULE_7__["PlayerService"])); };
-CreateComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: CreateComponent, selectors: [["app-create"]], decls: 24, vars: 14, consts: [[1, "container"], [1, "p-p-5"], ["pTemplate", "header"], [1, "label", "p-component"], ["pInputText", "", "type", "text", 3, "ngModel", "ngModelChange", "change"], ["severity", "error", "text", "Partita gi\u00E0 esistente", 4, "ngIf"], ["onLabel", "tutte le combinazioni (difficile)", "offLabel", "solo le combinazioni di wordle (semplice)", "onIcon", "pi pi-comments", "offIcon", "pi pi-comment", 3, "ngModel", "ngModelChange"], ["buttonLayout", "horizontal", "spinnerMode", "horizontal", "decrementButtonClass", "p-button-danger", "incrementButtonClass", "p-button-success", "incrementButtonIcon", "pi pi-plus", "decrementButtonIcon", "pi pi-minus", 3, "ngModel", "min", "max", "showButtons", "ngModelChange"], [1, "section"], ["onLabel", "Osservatore", "offLabel", "Giocatore", "onIcon", "pi pi-eye", "offIcon", "pi pi-user", 3, "ngModel", "ngModelChange"], [4, "ngIf"], ["pButton", "", 1, "createBtn", 3, "disabled", "click"], [1, "pi", "pi-chevron-left", 3, "click"], ["severity", "error", "text", "Partita gi\u00E0 esistente"]], template: function CreateComponent_Template(rf, ctx) { if (rf & 1) {
+CreateComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: CreateComponent, selectors: [["app-create"]], decls: 26, vars: 14, consts: [[1, "container"], [1, "p-p-5"], ["pTemplate", "header"], [1, "label", "p-component"], ["pInputText", "", "type", "text", 3, "ngModel", "ngModelChange", "change"], ["severity", "error", "text", "Partita gi\u00E0 esistente", 4, "ngIf"], ["onLabel", "tutte le combinazioni (difficile)", "offLabel", "solo le combinazioni di wordle (semplice)", "onIcon", "pi pi-comments", "offIcon", "pi pi-comment", 3, "ngModel", "ngModelChange"], ["buttonLayout", "horizontal", "spinnerMode", "horizontal", "decrementButtonClass", "p-button-danger", "incrementButtonClass", "p-button-success", "incrementButtonIcon", "pi pi-plus", "decrementButtonIcon", "pi pi-minus", 3, "ngModel", "min", "max", "showButtons", "ngModelChange"], [1, "section"], ["onLabel", "Osservatore", "offLabel", "Giocatore", "onIcon", "pi pi-eye", "offIcon", "pi pi-user", 3, "ngModel", "ngModelChange"], [4, "ngIf"], ["pButton", "", 1, "createBtn", 3, "disabled", "click"], [1, "pi", "pi-chevron-left", 3, "click"], ["severity", "error", "text", "Partita gi\u00E0 esistente"], [1, "p-component"]], template: function CreateComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "p-card", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](2, CreateComponent_ng_template_2_Template, 2, 0, "ng-template", 2);
@@ -1557,14 +1558,17 @@ CreateComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](19, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](20, "p-toggleButton", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("ngModelChange", function CreateComponent_Template_p_toggleButton_ngModelChange_20_listener($event) { return ctx.observer = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](20, "span", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](21, "Entra come");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](22, "p-toggleButton", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("ngModelChange", function CreateComponent_Template_p_toggleButton_ngModelChange_22_listener($event) { return ctx.observer = $event; });
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](21, CreateComponent_div_21_Template, 4, 1, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](22, "button", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function CreateComponent_Template_button_click_22_listener() { return ctx.createMatch(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](23, "Crea la partita ed entra");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](23, CreateComponent_div_23_Template, 4, 1, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](24, "button", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function CreateComponent_Template_button_click_24_listener() { return ctx.createMatch(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](25, "Crea la partita ed entra");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
@@ -1579,13 +1583,13 @@ CreateComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngModel", ctx.wordNumber)("min", 1)("max", 20)("showButtons", true);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngModel", ctx.playerNumber)("min", 1)("max", 20)("showButtons", true);
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngModel", ctx.observer);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", !ctx.observer);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("disabled", !((ctx.playername || ctx.observer) && ctx.matchname && !ctx.matchExist));
-    } }, directives: [primeng_lts_card__WEBPACK_IMPORTED_MODULE_8__["Card"], primeng_lts_api__WEBPACK_IMPORTED_MODULE_9__["PrimeTemplate"], _angular_forms__WEBPACK_IMPORTED_MODULE_10__["DefaultValueAccessor"], primeng_lts_inputtext__WEBPACK_IMPORTED_MODULE_11__["InputText"], _angular_forms__WEBPACK_IMPORTED_MODULE_10__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_10__["NgModel"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgIf"], primeng_lts_togglebutton__WEBPACK_IMPORTED_MODULE_12__["ToggleButton"], primeng_lts_inputnumber__WEBPACK_IMPORTED_MODULE_13__["InputNumber"], primeng_lts_button__WEBPACK_IMPORTED_MODULE_14__["ButtonDirective"], primeng_lts_message__WEBPACK_IMPORTED_MODULE_15__["UIMessage"]], styles: [".createBtn[_ngcontent-%COMP%] {\n  margin-top: 30px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXC4uXFxjcmVhdGUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxnQkFBQTtBQUNKIiwiZmlsZSI6ImNyZWF0ZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jcmVhdGVCdG57XHJcbiAgICBtYXJnaW4tdG9wOiAzMHB4O1xyXG59Il19 */"] });
+    } }, directives: [primeng_lts_card__WEBPACK_IMPORTED_MODULE_8__["Card"], primeng_lts_api__WEBPACK_IMPORTED_MODULE_9__["PrimeTemplate"], _angular_forms__WEBPACK_IMPORTED_MODULE_10__["DefaultValueAccessor"], primeng_lts_inputtext__WEBPACK_IMPORTED_MODULE_11__["InputText"], _angular_forms__WEBPACK_IMPORTED_MODULE_10__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_10__["NgModel"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgIf"], primeng_lts_togglebutton__WEBPACK_IMPORTED_MODULE_12__["ToggleButton"], primeng_lts_inputnumber__WEBPACK_IMPORTED_MODULE_13__["InputNumber"], primeng_lts_button__WEBPACK_IMPORTED_MODULE_14__["ButtonDirective"], primeng_lts_message__WEBPACK_IMPORTED_MODULE_15__["UIMessage"]], styles: [".createBtn[_ngcontent-%COMP%] {\n  margin-top: 30px;\n}\n\n.section[_ngcontent-%COMP%] {\n  padding-top: 30px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXC4uXFxjcmVhdGUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxnQkFBQTtBQUNKOztBQUVBO0VBQ0ksaUJBQUE7QUFDSiIsImZpbGUiOiJjcmVhdGUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY3JlYXRlQnRue1xyXG4gICAgbWFyZ2luLXRvcDogMzBweDtcclxufVxyXG5cclxuLnNlY3Rpb257XHJcbiAgICBwYWRkaW5nLXRvcDogMzBweDs7XHJcbn0iXX0= */"] });
 
 
 /***/ }),
